@@ -46,10 +46,11 @@
     "yup": "^1.0.2"
   },
   "scripts": {
-    "dev": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "predev": "git pull",
+    "dev": "yarn && react-app-rewired start",
+    "build": "yarn && react-app-rewired build",
+    "test": "yarn && react-app-rewired test",
+    "eject": "yarn && react-scripts eject"
   },
   "browserslist": {
     "production": [
